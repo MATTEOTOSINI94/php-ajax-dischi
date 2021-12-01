@@ -1,5 +1,6 @@
 <?php
     include "./dati/dati.php";
+    include "./dati/cardcomponent.php"
 
   
 ?>
@@ -27,21 +28,11 @@
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-5 g-5 m-0">
-      <?php
-        foreach ($dischi as  $value) {
-
-            $titolo = $value["title"];
-            $img = $value["poster"];
-            $genere= $value["genre"];
-            $annoDrop=$value["year"];
-            $autore =$value["author"];
-
-            require "./dati/cardcomponent.php";
-   
- 
-}
-
-?>
+        <?php
+            foreach ($dischi as  $value) {
+                prinCard($value);
+            }
+        ?>
 
                 
 
