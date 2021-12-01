@@ -24,5 +24,9 @@
     p{
       color: grey;
       text-align: center
-    };
+    }
+
+.card-boxx{
+    background-color: rgba(0, 0, 97, 0.911);
+}
   

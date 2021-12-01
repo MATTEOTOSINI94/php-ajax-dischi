@@ -1,7 +1,5 @@
 <?php
-
 function prinCard($dati_arr){
-
     if (empty($dati_arr)) {
       return;
     }
@@ -10,7 +8,6 @@ function prinCard($dati_arr){
     $genere= $dati_arr["genre"];
     $annoDrop=$dati_arr["year"];
     $autore =$dati_arr["author"];
-
     ?>
     <div class="col">
             <div id="card-style" class="card">
@@ -23,9 +20,6 @@ function prinCard($dati_arr){
     </div>
     <?php
 }
-
-
-
 ?>
 
 
