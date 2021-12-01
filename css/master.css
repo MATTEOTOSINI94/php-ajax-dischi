@@ -27,6 +27,10 @@
     }
 
 .card-boxx{
+  height: 100vh;
     background-color: rgba(0, 0, 97, 0.911);
+}
+.style-select{
+  width: 20%;
 }
   
