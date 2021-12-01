@@ -1,0 +1,28 @@
+.header-cont{
+    background: black;
+}
+
+.header-cont>img{
+    width: 50px;
+}
+
+#card-style{
+    height: 100%;
+    background: rgba(43, 58, 70, 0.705);
+    padding-top: 15px;
+    padding-bottom: 20px;}
+  
+    #card-style > img{
+      width: 110px;
+      align-self: center;
+    }
+  
+    h5{
+      color: white;
+      text-align: center;
+    }
+    p{
+      color: grey;
+      text-align: center
+    };
+  
